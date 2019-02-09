@@ -46,3 +46,38 @@ if  (y.contains(-100))
     print("True")
 }
 
+var a = [1,2,3,4,5,6,7]
+
+for x in a
+{
+    print(x)
+}
+
+var b = [Int]()
+
+b.append(100)
+b.append(200)
+b.append(300)
+print(b[0],b[1])
+
+b+=[111,222,333]
+
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
