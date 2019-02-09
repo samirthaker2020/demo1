@@ -29,3 +29,20 @@ print(p.hasPrefix("Hello"))
 print(p.hasSuffix("Hello"))
 print(p.uppercased())
 
+for c in p
+{
+    print(c)
+}
+
+var x = 5...10
+for i in x{
+    print(i)
+}
+print(x)
+
+var y = ...50
+if  (y.contains(-100))
+{
+    print("True")
+}
+
