@@ -58,26 +58,35 @@ var b = [Int]()
 b.append(100)
 b.append(200)
 b.append(300)
-print(b[0],b[1])
-
-b+=[111,222,333]
-
-print(b)
 
 
+ var s1=Set<String>()
+s1.insert("canada")
+s1.insert("India")
+s1.insert("United states")
+s1.insert("UK")
+s1.insert("Germany")
+s1.insert("France")
+s1.insert("Poland")
+
+print(s1)
+var d = [1:"Hello",2:"world"]
+
+print(d)
+
+var country = Dictionary<String,String>()
+country.updateValue("INDIA", forKey:"IND")
+country.updateValue("CANADA", forKey:"CAD")
+country.updateValue("BRAZIL", forKey:"BRAZ")
+print(country)
 
 
+for i in country
+{
+    print(i.value)
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (k,_) in country
+{
+    print(k)
+}
