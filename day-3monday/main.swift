@@ -8,5 +8,38 @@
 //samir thaker
 import Foundation
 
-print("Hello, World!")
+func sum(a:Int,b:Int)
+ {
+    let c=a+b
+    print("Sum::\(c)")
+}
+
+
+sum(a:10,b:20)
+
+func sum(of a:Float, and b:Float)
+{
+    let c=a+b;
+    print("SUM::\(c)")
+}
+
+sum(of: 10.5, and: 6.10)
+
+
+func sub(of a:Float, and b:Float)
+{
+    let c=a-b;
+    print("Sub::\(c)")
+}
+
+sub(of: 10.5, and: 6.10)
+
+func sub(_ a:Float,_ b:Float)
+{
+    let c=a-b;
+    print("Sub::\(c)")
+}
+
+ sub(20,10)
+
 
