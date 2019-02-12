@@ -70,4 +70,15 @@ return (amount*rate*year)/100
 print(si(rate:2.0))
 
 
+func mul(a:Int,b:Int)->(Int)
+{
+    return  (a*b)
+}
 
+func mod(a:Int,b:Int)->(Int)
+{
+    return  (a%b)
+}
+
+print(mul(a:10,b:20))
+print(mod(a:10,b:20))
